@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e79f680-bc9a-4b84-a14c-8429220fda6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/FactoryProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/animal/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/animal/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/animal/Pato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/cor/Branco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/cor/Cor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/cor/Marrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/cor/Preto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/enums/AnimalEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/enums/CorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/enums/FactoryEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/enums/Instanciador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/factory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/factory/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2/factory/CorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5e79f680-bc9a-4b84-a14c-8429220fda6f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/com/bianeck/creacional/abstractfactory/caso2" />
@@ -132,8 +112,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578843540947</updated>
-      <workItem from="1578843542827" duration="8220000" />
+      <workItem from="1578843542827" duration="8868000" />
     </task>
+    <task id="LOCAL-00001" summary="Abstract Factory - parte2">
+      <created>1578866881225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578866881225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,5 +137,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Abstract Factory - parte2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract Factory - parte2" />
   </component>
 </project>
