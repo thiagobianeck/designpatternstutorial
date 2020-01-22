@@ -1,0 +1,48 @@
+@startuml
+package br.com.bianeck.creacional.builder.caso1 {
+    class Livro {
+    - id : Long
+    - titulo: String
+    - editora: String
+    - autores: List<String>
+    - resumo: String
+    - isbn: String
+    - anoLancamento: Integer
+    - numeroDePaginas: Integer
+    - valor: BigDecimal
+    + Livro()
+'    + Livro(id : Long, titulo: String, editora: String, autores: List<String>, resumo: String, isbn: String, anoLancamento: Integer, numeroDePaginas: Integer, valor: BigDecimal)
+    + Livro(builder : LivroBuilder)
+    }
+    class LivroBuilder {
+        - id : Long
+        - titulo: String
+        - editora: String
+        - autores: List<String>
+        - resumo: String
+        - isbn: String
+        - anoLancamento: Integer
+        - numeroDePaginas: Integer
+        - valor: BigDecimal
+        + LivroBuilder(id: Long)
+        + LivroBuilder(id: Integer)
+        + livroPadrao() : LivroBuilder
+        + comTitulo(titulo : String ) : LivroBuilder
+        + comSubTitulo(subtitulo : String) : LivroBuilder
+        + comEditora(editora : String) : LivroBuilder
+        + comAutores(autores : String[]) : LivroBuilder
+        + comResumo(resumo : String) : LivroBuilder
+        + comIsbn(isbn : String) : LivroBuilder
+        + comAnoDeLancamento(anoLancamento : Integer) : LivroBuilder
+        + comNumeroDePaginas(numeroDePaginas : Integer) : LivroBuilder
+        + comValor(valor : BigDecimal) : LivroBuilder
+        + comValor(valor : String) : LivroBuilder
+        + comValor(valor : Double) : LivroBuilder
+        + comValor(valor : Long) : LivroBuilder
+        + comValor(valor : Integer) : LivroBuilder
+        + build(): Livro
+    }
+}
+
+LivroBuilder ..+ Livro
+@enduml

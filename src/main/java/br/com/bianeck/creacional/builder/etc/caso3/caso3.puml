@@ -1,0 +1,43 @@
+@startuml
+package br.com.bianeck.creacional.builder.caso3 {
+package br.com.bianeck.creacional.builder.caso3.builders {
+    interface Builder{
+        setType(type : Type) : void
+        setSeats(seats : int) : void
+        setEngine(engine : Engine) : void
+    }
+
+    class CarBuilder{
+    }
+
+    class CarManualBuilder{
+    }
+
+}
+package br.com.bianeck.creacional.builder.caso3.cars {
+    class Car{
+    }
+    class Manual{
+    }
+    enum Type {
+    }
+}
+package br.com.bianeck.creacional.builder.caso3.components {
+    class Engine{
+    }
+    class GPSNavigator{
+    }
+    enum Transmission{
+    }
+    class TripComputer{
+    }
+}
+package br.com.bianeck.creacional.builder.caso3.director {
+    class Director {
+    }
+}
+}
+
+CarBuilder ..|> Builder
+CarManualBuilder ..|> Builder
+@enduml
