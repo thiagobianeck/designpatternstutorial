@@ -1,0 +1,67 @@
+@startuml
+package br.com.bianeck.creational.prototype.caso1 {
+    abstract class Arvore{
+        - massa : double
+        - altura : double
+        - posicao : Posicao
+        + Arvore(massa : double, altura : double)
+        + getMassa() : double
+        + setMassa(massa : double) : void
+        + getAltura() : double
+        + setAltura(altura : double) : void
+        + getPosicao() : Posicao
+        + setPosicao(posicao : Posicao) : void
+        + toString() : String
+        + {abstract} copy() : Arvore
+    }
+    class ArvoreDePlastico{
+        - nome : String
+        + ArvoreDePlastico(massa : double, altura : double)
+        + getNome() : String
+        + copy() : Arvore
+    }
+    class Pinheiro {
+        - tipo : String
+        + Pinheiro(massa : double, altura : double)
+        + getTipo() : String
+        + copy() : Arvore
+    }
+    class Posicao {
+        - x : int
+        - y : int
+        + getX() : int
+        + getY() : int
+        + hashCode() : int
+        + equals(obj : Object) : boolean
+        + toString() : String
+    }
+}
+
+Arvore <|- Pinheiro
+Arvore <|- ArvoreDePlastico
+Arvore "1" *-- "1" Posicao : tem >
+
+'abstract class AbstractList
+'abstract AbstractCollection
+'interface List
+'interface Collection
+'
+'List <|-- AbstractList
+'Collection <|-- AbstractCollection
+'
+'Collection <|- List
+'AbstractCollection <|- AbstractList
+'AbstractList <|-- ArrayList
+'
+'class ArrayList {
+'Object[] elementData
+'size()
+'}
+'
+'enum TimeUnit {
+'DAYS
+'HOURS
+'MINUTES
+'}
+
+@enduml
